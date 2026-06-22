@@ -1,0 +1,24 @@
+{
+  "name": "llm-cli-typescript",
+  "version": "1.0.0",
+  "description": "OpenAI chatbot CLI in TypeScript (part of multi-language comparison)",
+  "type": "module",
+  "main": "dist/chat.js",
+  "scripts": {
+    "start": "tsx src/chat.ts",
+    "build": "tsc",
+    "run-built": "node dist/chat.js"
+  },
+  "dependencies": {
+    "openai": "^4.65.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "tsx": "^4.19.0",
+    "@types/node": "^22.7.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

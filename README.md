@@ -61,7 +61,7 @@ The final report has the detailed write-up with code snippets, benchmarks, lines
 ## Status
 
 - [x] Python implementation
-- [ ] TypeScript implementation
-- [ ] Go implementation
+- [x] TypeScript implementation
+- [x] Go implementation
 - [ ] Benchmarks
 - [ ] Final report
